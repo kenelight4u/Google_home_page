@@ -44,11 +44,10 @@ a:hover {
 	text-decoration: underline;
 	color: #5f6368;
 }
-.goo a {
+#goo a {
 	color: #1a0dab;
 	margin-right: 5px;
 	line-height: 28px;
-
 }
 .cen-bar {
 	display: flex;
