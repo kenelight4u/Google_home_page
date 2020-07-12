@@ -24,11 +24,13 @@
 				<img class = "cen-item" style="margin-bottom: 20px;" src="images/google_image.png" />
 			</div>
 
-			<form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 				<p>
 					<label>Your Email: <input type="email" name="email" /></label>
 				</p>
-	
+				
+				<div data-netlify-recaptcha="true"></div>
+				
 				<button type="submit"> Submit </button>
 			</form>
 			<div id="input_container">
